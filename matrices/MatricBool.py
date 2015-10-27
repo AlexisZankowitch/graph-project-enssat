@@ -1,5 +1,4 @@
 import random
-from matrices import MatriceAdjacence
 from matrices.Matrice import Matrice
 
 __author__ = 'azank'
