@@ -19,6 +19,7 @@ class Matrice:
         self.sommet[x][y] = val
 
     def print(self):
+        print('Matrix : ')
         for i in range(self.size):
             print(self.sommet[i])
 

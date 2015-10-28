@@ -1,6 +1,6 @@
 from algos.Dijkstra import Dijkstra
-from matrices.MatricBool import MatriceBool
-from matrices.MatriceAdjacence import MatriceAdjacence
+from matrices.BoolMatrix import BoolMatrix
+from matrices.AdjacencyMatrix import AdjacencyMatrix
 
 __author__ = 'azank'
 
