@@ -1,3 +1,4 @@
+import random
 from algos.Dijkstra import Dijkstra
 from matrices.BoolMatrix import BoolMatrix
 from matrices.AdjacencyMatrix import AdjacencyMatrix
@@ -13,5 +14,4 @@ __author__ = 'azank'
 # matriceBool.print()
 
 print('Dijkstra : ')
-dijkstra = Dijkstra(4)
-dijkstra.list_construction()
+dijkstra = Dijkstra(5)
