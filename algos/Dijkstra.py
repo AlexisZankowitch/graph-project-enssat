@@ -1,15 +1,15 @@
 from _ctypes import sizeof
 import random
-from matrices.AdjacencyMatrix import AdjacencyMatrix
+from matrices.WeightMatrix import WeightMatrix
 
 __author__ = 'azank'
 
 
 class Dijkstra:
     def __init__(self, size):
-        self.adjacencyMatrix = AdjacencyMatrix(size)
-        self.start = random.randint(0, self.adjacencyMatrix.size - 1)
-        self.finish = random.randint(0, self.adjacencyMatrix.size - 1)
+        self.weightMatrix = WeightMatrix(size)
+        self.start = random.randint(0, self.weightMatrix.size - 1)
+        self.finish = random.randint(0, self.weightMatrix.size - 1)
         self.accessibleNode = []
         self.weightNode = []
         self.nodes_list = []
@@ -17,13 +17,13 @@ class Dijkstra:
         self.initialization()
 
     def list_construction(self):
-        for i in range(self.adjacencyMatrix.size):
+        for i in range(self.weightMatrix.size):
             adj = []
             weight = []
-            for j in range(self.adjacencyMatrix.size):
-                if self.adjacencyMatrix.apex[i][j] != 0:
+            for j in range(self.weightMatrix.size):
+                if self.weightMatrix.apex[i][j] != 0:
                     adj.append(j)
-                    weight.append(self.adjacencyMatrix.apex[i][j])
+                    weight.append(self.weightMatrix.apex[i][j])
             self.accessibleNode.append(adj)
             self.weightNode.append(weight)
 
@@ -42,7 +42,7 @@ class Dijkstra:
         # print('weight :'+ str(self.weightNode[i][j]))
 
     def dijkstra_print(self):
-        self.adjacencyMatrix.print()
+        self.weightMatrix.print()
         print('Start :' + str(self.start))
         print('Finish :' + str(self.finish))
         print('accessible nodes :' + str(self.accessibleNode))
@@ -57,7 +57,7 @@ class Dijkstra:
         reset = False
         c = 0
         while (self.finish == self.start or self.finish in self.accessibleNode[self.start]) and c < 100:
-            self.finish = random.randint(self.finish, self.adjacencyMatrix.size - 1)
+            self.finish = random.randint(self.finish, self.weightMatrix.size - 1)
             c += 1
             print(c)
             if c >= 100:
@@ -69,7 +69,7 @@ class Dijkstra:
         self.list_construction()
         # test if the matrix is ok to launch the algorithm
         if self.define_finish():
-            self.__init__(self.adjacencyMatrix.size)
+            self.__init__(self.weightMatrix.size)
         else:
             self.algorithm()
 

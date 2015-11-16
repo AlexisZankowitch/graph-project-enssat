@@ -1,8 +1,8 @@
 __author__ = 'azank'
 
 
-class Matrice:
-    def __init__(self,size,name):
+class Matrix:
+    def __init__(self, size, name):
         self.name = name
         self.nbrSom = size
         self.apex = []
@@ -20,9 +20,6 @@ class Matrice:
         self.apex[x][y] = val
 
     def print(self):
-        print(str(self.name)+' matrix : ')
+        print(str(self.name) + ' matrix : ')
         for i in range(self.size):
             print(self.apex[i])
-
-
-

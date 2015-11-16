@@ -1,7 +1,7 @@
 import random
 from algos.Dijkstra import Dijkstra
-from matrices.BoolMatrix import BoolMatrix
 from matrices.AdjacencyMatrix import AdjacencyMatrix
+from matrices.WeightMatrix import WeightMatrix
 
 __author__ = 'azank'
 
