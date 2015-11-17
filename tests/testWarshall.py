@@ -6,6 +6,5 @@ print('Warshall :')
 
 warshall = Warshall()
 print("Algorithm works normally" if warshall.test_warshall() else "Something went wrong")
-# warshall.warhsall(4)
-
+warshall.warhsall(5)
 warshall.routage(5)
