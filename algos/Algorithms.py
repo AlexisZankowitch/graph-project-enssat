@@ -22,6 +22,16 @@ class Algorithms:
                         if self.has_arc(i, y) and self.arc_null(x, y):
                             self.add_arc(x, y, self.matrix[x][i])
 
+    def dijkstra(self, matrix):
+        self.matrix = matrix
+        self.print_matrix('dijkstra')
+        e = [1]
+        D = []
+        for i in range(len(self.matrix)):
+            D.append(self.matrix[0][i])
+        for i in range(len(D)):
+            print(D[i])
+
     def has_arc(self, a, b):
         return self.matrix[a][b] != 0
 

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="287d33e4-543f-4c8f-843a-f87c25aa2bb0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algos/Algorithms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Test_Algorithms_Warshall.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matrices/Warshall_Matrices.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/testWarshall.py" afterPath="$PROJECT_DIR$/tests/testWarshall.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/matrices/Dijkstra_Matrices.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/Test_Algorithms_Dijkstra.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algos/Algorithms.py" afterPath="$PROJECT_DIR$/algos/Algorithms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="graph-project-enssat.iws" />
@@ -23,8 +22,9 @@
     <SUITE FILE_PATH="coverage/graph-project-enssat$testWarshall.coverage" NAME="testWarshall Coverage Results" MODIFIED="1447761405559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/graph-project-enssat$Personne.coverage" NAME="Personne Coverage Results" MODIFIED="1445951322959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classes" />
     <SUITE FILE_PATH="coverage/graph-project-enssat$test.coverage" NAME="test Coverage Results" MODIFIED="1447681329585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/graph-project-enssat$Test_Algorithms.coverage" NAME="Test_Algorithms Coverage Results" MODIFIED="1447764124210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/graph-project-enssat$Test_Algorithms.coverage" NAME="Test_Algorithms Coverage Results" MODIFIED="1447765170044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/graph-project-enssat$MatriceAdjacence.coverage" NAME="MatriceAdjacence Coverage Results" MODIFIED="1445953029666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classes" />
+    <SUITE FILE_PATH="coverage/graph-project-enssat$Test_Algorithms_Dijkstra.coverage" NAME="Test_Algorithms_Dijkstra Coverage Results" MODIFIED="1447765415038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/graph-project-enssat$Unittests_in_TestMatriceAdjacence.coverage" NAME="Unittests in TestMatriceAdjacence Coverage Results" MODIFIED="1445954099556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -36,16 +36,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Matrix.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matrices/Matrix.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="testWarshall.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/testWarshall.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,30 +49,8 @@
       <file leaf-file-name="Algorithms.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algos/Algorithms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.8937824">
-              <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_Algorithms_Warshall.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Test_Algorithms_Warshall.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Warshall_Matrices.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matrices/Warshall_Matrices.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.57253885">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -100,48 +68,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Warshall.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algos/Warshall.py">
+      <file leaf-file-name="Test_Algorithms_Dijkstra.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Test_Algorithms_Dijkstra.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="31" selection-start-line="45" selection-start-column="17" selection-end-line="48" selection-end-column="31" />
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
-                <element signature="e#0#52#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoutageMatrix.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matrices/RoutageMatrix.py">
+      <file leaf-file-name="Dijkstra_Matrices.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matrices/Dijkstra_Matrices.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdjacencyMatrix.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matrices/AdjacencyMatrix.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_Adjacency.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matrices/Test_Adjacency.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test_Algorithms_Warshall.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Test_Algorithms_Warshall.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,8 +141,10 @@
         <option value="$PROJECT_DIR$/tests/testWarshall.py" />
         <option value="$PROJECT_DIR$/tests/Test_Algorithms.py" />
         <option value="$PROJECT_DIR$/tests/Test_Algorithms_Warshall.py" />
-        <option value="$PROJECT_DIR$/algos/Algorithms.py" />
         <option value="$PROJECT_DIR$/matrices/Warshall_Matrices.py" />
+        <option value="$PROJECT_DIR$/matrices/Dijkstra_Matrices.py" />
+        <option value="$PROJECT_DIR$/tests/Test_Algorithms_Dijkstra.py" />
+        <option value="$PROJECT_DIR$/algos/Algorithms.py" />
       </list>
     </option>
   </component>
@@ -329,25 +287,7 @@
       <recent name="C:\Users\azank\Documents\python\graph-project-enssat\classes" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Test_Algorithms">
-    <configuration default="false" name="MatriceAdjacence" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="graph-project-enssat" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\azank\Documents\python\graph-project-enssat\matrice\MatriceAdjacence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Test_Algorithms_Dijkstra">
     <configuration default="false" name="Unittests in TestMatriceAdjacence" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,6 +361,24 @@
       <module name="graph-project-enssat" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\azank\Documents\python\graph-project-enssat\tests\Test_Algorithms_Warshall.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test_Algorithms_Dijkstra" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="graph-project-enssat" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/Test_Algorithms_Dijkstra.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -614,19 +572,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.MatriceAdjacence" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestMatriceAdjacence" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.testWarshall" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Test_Algorithms" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestMatriceAdjacence" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.testWarshall" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Test_Algorithms" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Test_Algorithms_Dijkstra" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Test_Algorithms" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testWarshall" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in TestMatriceAdjacence" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MatriceAdjacence" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Test_Algorithms_Dijkstra" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Test_Algorithms" />
+        <item index="2" class="java.lang.String" itemvalue="Python.testWarshall" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestMatriceAdjacence" />
       </list>
     </recent_temporary>
   </component>
@@ -981,16 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algos/Dijkstra.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algos/Warshall.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1020,17 +968,45 @@
     <entry file="file://$PROJECT_DIR$/tests/Test_Algorithms_Warshall.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/matrices/Dijkstra_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Test_Algorithms_Dijkstra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algos/Dijkstra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algos/Algorithms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8937824">
-          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.57253885">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding />
         </state>
       </provider>
