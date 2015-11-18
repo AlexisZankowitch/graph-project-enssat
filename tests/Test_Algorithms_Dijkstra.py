@@ -9,3 +9,7 @@ test_algorithm = Algorithms()
 matrices = Dijkstra_Matrices()
 
 test_algorithm.dijkstra(matrices.matrix_one)
+
+test_algorithm.dijkstra(matrices.matrix_two)
+
+test_algorithm.dijkstra(matrices.matrix_three)

@@ -25,12 +25,40 @@ class Algorithms:
     def dijkstra(self, matrix):
         self.matrix = matrix
         self.print_matrix('dijkstra')
-        e = [1]
+        E = [0]
         D = []
         for i in range(len(self.matrix)):
-            D.append(self.matrix[0][i])
-        for i in range(len(D)):
-            print(D[i])
+            if self.has_arc(0, i):
+                D.append(self.matrix[0][i])
+            else:
+                D.append(9999)
+        Dd = D.copy()
+        for i in range(len(self.matrix)):
+            t = self.get_imin(Dd)
+            Dd[t] = 9999
+            E.append(t)
+            successors = self.get_successor(t, E)
+            for successor in successors:
+                D[successor] = min(D[successor], D[t] + self.get_weight(successor, t))
+                Dd[successor] = D[successor]
+                # remember node where we went
+                for val in E:
+                    Dd[val] = 9999
+        D[0] = 0
+        print('Result : ' + str(D))
+
+    def get_imin(self, lists):
+        return lists.index(min(lists))
+
+    def get_successor(self, node, E):
+        successors = []
+        for j in range(len(self.matrix)):
+            if self.has_arc(node, j):
+                successors.append(j)
+        return sorted(successors)
+
+    def get_weight(self, a, b):
+        return self.matrix[b][a]
 
     def has_arc(self, a, b):
         return self.matrix[a][b] != 0
