@@ -1,9 +1,9 @@
-from matrices.AdjacencyMatrix import AdjacencyMatrix
+from matrices.ConnectivityMatrix import ConnectivityMatrix
 
 __author__ = 'azank'
 
 
-class Test_Adjacency(AdjacencyMatrix):
+class Test_Adjacency(ConnectivityMatrix):
     def __init__(self, size):
         super().__init__(size)
         self.apex = [[0, 1, 0, 0],

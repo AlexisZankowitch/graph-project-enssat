@@ -1,12 +1,12 @@
 import random
-from matrices.AdjacencyMatrix import AdjacencyMatrix
+from matrices.ConnectivityMatrix import ConnectivityMatrix
 
 __author__ = 'azank'
 
 
-class RoutageMatrix(AdjacencyMatrix):
+class RoutingMatrix(ConnectivityMatrix):
     def __init__(self, size):
-        super(AdjacencyMatrix, self).__init__(size, 'Routage')
+        super(ConnectivityMatrix, self).__init__(size, 'Routage')
         # matrix filling
         for i in range(size):
             for j in range(size):

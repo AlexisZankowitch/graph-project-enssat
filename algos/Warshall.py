@@ -1,5 +1,5 @@
-from matrices.AdjacencyMatrix import AdjacencyMatrix
-from matrices.RoutageMatrix import RoutageMatrix
+from matrices.ConnectivityMatrix import ConnectivityMatrix
+from matrices.RoutingMatrix import RoutingMatrix
 from matrices.Test_Adjacency import Test_Adjacency
 
 __author__ = 'azank'
@@ -29,13 +29,13 @@ class Warshall:
         self.routageMatrix = None
 
     def warhsall(self, size):
-        self.adjacencyMatrix = AdjacencyMatrix(size)
+        self.adjacencyMatrix = ConnectivityMatrix(size)
         self.adjacencyMatrix.print()
         warshall_algorithm(self.adjacencyMatrix)
         self.adjacencyMatrix.print()
 
     def routage(self, size):
-        self.routageMatrix = RoutageMatrix(size)
+        self.routageMatrix = RoutingMatrix(size)
         self.routageMatrix.print()
         warshall_routage(self.routageMatrix)
         self.routageMatrix.print()

@@ -4,13 +4,13 @@ from matrices.Matrix import Matrix
 __author__ = 'azank'
 
 
-class AdjacencyMatrix(Matrix):
+class ConnectivityMatrix(Matrix):
     def __init__(self, size):
-        super(AdjacencyMatrix, self).__init__(size, 'Adjacency')
+        super(ConnectivityMatrix, self).__init__(size, 'Adjacency')
         # matrix filling
         for i in range(size):
             for j in range(size):
-                if random.randint(0, 9) == 0:
+                if random.randint(0, 5) == 0:
                     self.apex[i][j] = 0
                 else:
                     self.apex[i][j] = random.randint(0, 1)

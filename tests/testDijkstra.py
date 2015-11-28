@@ -1,6 +1,6 @@
 import random
 from algos.Dijkstra import Dijkstra
-from matrices.AdjacencyMatrix import AdjacencyMatrix
+from matrices.ConnectivityMatrix import ConnectivityMatrix
 from matrices.WeightMatrix import WeightMatrix
 
 __author__ = 'azank'
