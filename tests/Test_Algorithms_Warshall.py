@@ -1,11 +1,11 @@
-from algos.Algorithms import Algorithms
+from algos.WarshallAlgorithm import WarshallAlgorithm
 from matrices.ConnectivityMatrix import ConnectivityMatrix
 from matrices.RoutingMatrix import RoutingMatrix
 from matrices.Warshall_Matrices import Warshall_Matrices
 
 __author__ = 'azank'
 
-test_algorithm = Algorithms()
+test_algorithm = WarshallAlgorithm()
 
 # test Warshall algorithm
 matrices = Warshall_Matrices()
