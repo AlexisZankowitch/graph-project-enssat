@@ -1,7 +1,9 @@
 __author__ = 'azank'
 
-
 class Warshall_Matrices:
+    """
+    Contains several matrices and their expected results for the verifications
+    """
     def __init__(self):
         self.matrix_one = [[0, 1, 0, 0],
                            [0, 0, 1, 0],

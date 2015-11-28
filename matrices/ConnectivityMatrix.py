@@ -17,9 +17,3 @@ class ConnectivityMatrix(Matrix):
 
         # put 0 on the diagonal
         self.diagonal_zero()
-
-    def add_arc(self, x, y, val):
-        self.apex[x][y] = val
-
-    def hasArc(self,x,y):
-        return True if self.apex[x][y] else False
