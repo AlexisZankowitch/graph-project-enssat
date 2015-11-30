@@ -35,7 +35,7 @@ matrix.print()
 test_algorithm.warshall(matrix.apex)
 test_algorithm.print_matrix('Fermeture transitive matrice aleatoire :')
 
-matrix = RoutingMatrix(10)
+matrix = RoutingMatrix(5)
 matrix.print()
 test_algorithm.warshall(matrix.apex)
 test_algorithm.print_matrix('Fermeture transitive routage matrice aleatoire :')
