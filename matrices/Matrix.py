@@ -3,13 +3,15 @@ __author__ = 'azank'
 
 class Matrix:
     def __init__(self, size, name):
-        self.name = name
-        self.nbrSom = size
-        self.apex = []
+        self.name = name # name of the matrix
+        self.nbrSom = size # numbers of nodes of the matrix
+        self.apex = [] # apex is where the matrix is stored
         self.start = 0
         self.arrive = 0
-        self.size = size
-        # matrix creation
+        self.size = size # size of the matrix
+        """
+        matrix creation
+        """
         self.apex = [[0] * size for i in range(size)]
 
     def diagonal_zero(self):

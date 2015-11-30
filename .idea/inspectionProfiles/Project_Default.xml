@@ -5,6 +5,9 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="dict.append" />
+          <option value="tests.Test_Algorithms_Warshall.transitive" />
+          <option value="tests.Test_Algorithms_Warshall.matrix_one" />
+          <option value="tests.Test_Algorithms_Warshall.Fermeture" />
         </list>
       </option>
     </inspection_tool>

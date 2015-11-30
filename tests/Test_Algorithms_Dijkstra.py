@@ -1,10 +1,10 @@
-from algos.Algorithms import Algorithms
+from algos.DijkstraAlgorithm import DijkstraAlgorithm
 from matrices.Dijkstra_Matrices import Dijkstra_Matrices
 from matrices.WeightMatrix import WeightMatrix
 
 __author__ = 'azank'
 
-test_algorithm = Algorithms()
+test_algorithm = DijkstraAlgorithm()
 
 matrices = Dijkstra_Matrices()
 
