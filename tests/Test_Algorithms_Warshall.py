@@ -29,7 +29,7 @@ print(test_algorithm.test_result(matrices.matrix_routage_expected))
 """
 Test on random matrix
 """
-
+print("Test on random matrix")
 matrix = ConnectivityMatrix(5)
 matrix.print()
 test_algorithm.warshall(matrix.apex)

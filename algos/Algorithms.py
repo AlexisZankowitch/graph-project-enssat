@@ -47,7 +47,7 @@ class Algorithms:
         """
         E = [0]  # list of node which have been used
         D = []  # list of the shortest way between the arc(0,x)
-        Prev = [0] * len(self.matrix) # list of the previous node
+        Prev = [0] * len(self.matrix)  # list of the previous node
         """
         Build D list
         """
@@ -82,6 +82,7 @@ class Algorithms:
         """
         print('Prev :' + str(Prev))
         print('Result : ' + str(D))
+        self.matrix = D
 
     def get_imin(self, lists):
         """
@@ -147,10 +148,4 @@ class Algorithms:
         :param expected_matrix: matrix
         :return: String
         """
-        res = True
-        if len(self.matrix) is not None and len(self.matrix) == len(expected_matrix):
-            for i in range(len(self.matrix)):
-                for j in range(len(self.matrix)):
-                    if not self.is_equal(expected_matrix, i, j):
-                        res = False
-        return "Result is correct" if res else "Result is not correct"
+        return "Result is correct" if self.matrix == expected_matrix else "Result is not correct"
