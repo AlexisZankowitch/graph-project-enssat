@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ba1f22d-b314-4295-ad0b-d6de97b6cae2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algos/WarshallAlgorithm.py" afterPath="$PROJECT_DIR$/algos/WarshallAlgorithm.py" />
-    </list>
+    <list default="true" id="7ba1f22d-b314-4295-ad0b-d6de97b6cae2" name="Default" comment="" />
     <ignored path="graph-project-enssat.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -16,8 +14,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/graph-project-enssat$Test_Algorithms_Warshall.coverage" NAME="Test_Algorithms_Warshall Coverage Results" MODIFIED="1448888334900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/graph-project-enssat$Test_Algorithms_Dijkstra.coverage" NAME="Test_Algorithms_Dijkstra Coverage Results" MODIFIED="1448888328288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/graph-project-enssat$Test_Algorithms_Warshall.coverage" NAME="Test_Algorithms_Warshall Coverage Results" MODIFIED="1448888396438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/graph-project-enssat$Test_Algorithms_Dijkstra.coverage" NAME="Test_Algorithms_Dijkstra Coverage Results" MODIFIED="1448888401209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -53,8 +51,8 @@
       <file leaf-file-name="WarshallAlgorithm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algos/WarshallAlgorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0822281">
-              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.38368055">
+              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -268,7 +266,7 @@
       <recent name="C:\Users\azank\Documents\python\graph-project-enssat\classes" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Test_Algorithms_Warshall">
+  <component name="RunManager" selected="Python.Test_Algorithms_Dijkstra">
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -556,8 +554,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Test_Algorithms_Warshall" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Test_Algorithms_Dijkstra" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Test_Algorithms_Dijkstra" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Test_Algorithms_Warshall" />
         <item index="2" class="java.lang.String" itemvalue="Python.Test_Algorithms" />
         <item index="3" class="java.lang.String" itemvalue="Python.testWarshall" />
         <item index="4" class="java.lang.String" itemvalue="Python.test" />
@@ -595,7 +593,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -724,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algos/WarshallAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0822281">
-          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.38368055">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
           <folding />
         </state>
       </provider>
