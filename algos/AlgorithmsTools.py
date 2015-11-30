@@ -3,7 +3,7 @@ import math
 __author__ = 'azank'
 
 
-class Algorithms:
+class AlgorithmsTools:
     def __init__(self):
         self.matrix = []
 
@@ -79,7 +79,7 @@ class Algorithms:
 
     def test_result(self, expected_matrix):
         """
-        Checks if the matrices are the same.
+        Checks if self.matrix and expected_matrix are the same
         :param expected_matrix: matrix
         :return: String
         """

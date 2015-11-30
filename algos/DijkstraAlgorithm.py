@@ -1,11 +1,11 @@
 import math
 
-from algos.Algorithms import Algorithms
+from algos.AlgorithmsTools import AlgorithmsTools
 
 __author__ = 'azank'
 
 
-class DijkstraAlgorithm (Algorithms):
+class DijkstraAlgorithm (AlgorithmsTools):
     def __init__(self):
         super().__init__()
 
@@ -51,6 +51,7 @@ class DijkstraAlgorithm (Algorithms):
                 Dd[successor] = D[successor]
                 for val in E:
                     Dd[val] = math.inf
+        self.matrix= D # useful to test if the result is correct
         """
         Display
         """

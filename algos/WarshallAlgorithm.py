@@ -1,10 +1,10 @@
 
-from algos.Algorithms import Algorithms
+from algos.AlgorithmsTools import AlgorithmsTools
 
 __author__ = 'azank'
 
 
-class WarshallAlgorithm (Algorithms):
+class WarshallAlgorithm (AlgorithmsTools):
     def __init__(self):
         super().__init__()
 

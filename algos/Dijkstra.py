@@ -6,6 +6,9 @@ __author__ = 'azank'
 
 
 class Dijkstra:
+    """
+    recursive dijkstra, not done
+    """
     def __init__(self, size):
         self.weightMatrix = WeightMatrix(size)
         self.start = random.randint(0, self.weightMatrix.size - 1)
