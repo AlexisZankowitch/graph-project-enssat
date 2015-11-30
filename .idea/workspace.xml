@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ba1f22d-b314-4295-ad0b-d6de97b6cae2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algos/Algorithms.py" afterPath="$PROJECT_DIR$/algos/Algorithms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matrices/ConnectivityMatrix.py" afterPath="$PROJECT_DIR$/matrices/ConnectivityMatrix.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matrices/Dijkstra_Matrices.py" afterPath="$PROJECT_DIR$/matrices/Dijkstra_Matrices.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matrices/Matrix.py" afterPath="$PROJECT_DIR$/matrices/Matrix.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Test_Algorithms_Dijkstra.py" afterPath="$PROJECT_DIR$/tests/Test_Algorithms_Dijkstra.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Test_Algorithms_Warshall.py" afterPath="$PROJECT_DIR$/tests/Test_Algorithms_Warshall.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matrices/Warshall_Matrices.py" afterPath="$PROJECT_DIR$/matrices/Warshall_Matrices.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/graph-project-enssat.iml" afterPath="$PROJECT_DIR$/.idea/graph-project-enssat.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="graph-project-enssat.iws" />
@@ -44,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DijkstraAlgorithm.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DijkstraAlgorithm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algos/DijkstraAlgorithm.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -56,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dijkstra_Matrices.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dijkstra_Matrices.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matrices/Dijkstra_Matrices.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.059130434">
+            <state vertical-scroll-proportion="0.0">
               <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding />
             </state>
@@ -570,6 +560,13 @@
       <option name="number" value="Default" />
       <updated>1445592017714</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;algos/Algorithms.py&#10;#&#9;algos/__pycache__/Algorithms.cpython-35.pyc&#10;#&#9;matrices/__pycache__/Dijkstra_Matrices.cpython-35.pyc&#10;">
+      <created>1448885962238</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1448885962238</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -656,6 +653,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/matrices/Dijkstra_Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algos/DijkstraAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -663,14 +668,6 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matrices/Dijkstra_Matrices.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.059130434">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
